@@ -1,6 +1,6 @@
 {
   "name": "timielogger-types",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "files": [
     "dist"
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build-types": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "format": "prettier --config prettierrc.json --write ."
   }
 }
