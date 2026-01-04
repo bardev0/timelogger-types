@@ -1,0 +1,13 @@
+{
+  "name": "timielogger-types",
+  "version": "0.0.0",
+  "type": "module",
+  "files": ["dist"],
+  "exports": {
+    ".": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
